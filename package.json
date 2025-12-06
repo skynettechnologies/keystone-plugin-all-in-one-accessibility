@@ -1,0 +1,60 @@
+{
+  "name": "keystone-plugin-all-in-one-accessibility",
+  "version": "1.0.0",
+  "description": "Website accessibility widget for improving WCAG 2.0, 2.1, 2.2 and ADA, EAA compliance!",
+  "private": false,
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build"
+  },
+  "dependencies": {
+    "@keystone-6/auth": "^8.0.0",
+    "@keystone-6/core": "^6.0.0",
+    "@keystone-6/fields-document": "^9.0.0",
+    "typescript": "^5.5.0",
+    "react-bootstrap": "^2.10.9"
+  },
+  "keywords": [
+    "keystone",
+    "keystone-plugin",
+    "cms",
+    "headless",
+    "gui",
+    "admin",
+    "All in One Accessibility",
+    "ADA",
+    "All in One Accessibility keystone",
+    "All in One Accessibility javascript",
+    "keystone Plugin All in One Accessibility",
+    "keystone-plugin-all-in-one-accessibility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skynettechnologies/keystone-plugin-all-in-one-accessibility"
+  },
+  "bugs": {
+    "url": "https://github.com/skynettechnologies/keystone-plugin-all-in-one-accessibility/issues"
+  },
+  "homepage": "https://github.com/skynettechnologies/keystone-plugin-all-in-one-accessibility#readme",
+  "license": "MIT",
+  "author": "Skynet Technologies USA LLC <developer3@skynettechnologies.com>",
+  "sideEffects": false,
+  "type": "commonjs",
+  "exports": {
+    ".": {
+      "source": "./src/index.ts",
+      "import": "./dist/index.mjs",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "sanity.json",
+    "src",
+    "v2-incompatible.js"
+  ]
+}

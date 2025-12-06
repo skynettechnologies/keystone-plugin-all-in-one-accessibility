@@ -1,0 +1,15 @@
+node_modules
+.keystone/
+keystone.db
+*.log
+schema.graphql
+schema.prisma
+schema.ts
+.env
+.env.local
+.env.*.local
+.DS_Store
+.vscode/
+.idea/
+keystone.ts
+auth.ts
